@@ -1,0 +1,44 @@
+{
+  "name": "presstify-plugins/contact-toggle",
+  "description": "Extension PresstiFy d'affichage des coordonnées de contact.",
+  "type": "presstify-plugin",
+  "keywords": [
+    "presstify",
+    "plugins",
+    "wordpress",
+    "e-commerce",
+    "woocommerce"
+  ],
+  "homepage": "https://svn.tigreblanc.fr/presstify-plugins/contact-toggle",
+  "time": "2018-04-28",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jordy Manner",
+      "email": "jordy.manner@milkcreation.fr",
+      "role": "Developper"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://composer.tigreblanc.fr/presstify/"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0",
+    "presstify/framework": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "tiFy\\Plugins\\ContactToggle\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config" : {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
